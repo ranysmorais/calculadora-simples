@@ -1,2 +1,3 @@
 # calculadora-simples
-Calculadora com funções de soma/subtrair/multiplicar e dividir
+Calculadora com funções de somar/subtrair/multiplicar e dividir
+(linguagem Java).
