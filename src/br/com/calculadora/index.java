@@ -9,18 +9,18 @@ public class index {
 
 		Scanner lerDado = new Scanner(System.in);
 		Calculos calc = new Calculos();
-		Integer opt = 0;
+		Integer opt;
 		Integer flag;
 		do {
 			flag = 0;
 			System.out.println("-- Calculadora Simples --" +
-			"\n escolha uma opÁ„o: \n"+
+			"\n escolha uma op√ß√£o: \n"+
 			" 1-Somar\n 2-Subtrair\n 3-Multiplicar\n 4-Dividir\n" +
-			" opÁ„o: ");			
+			" op√ß√£o: ");			
 			opt = lerDado.nextInt();
 
 			if (opt < 1 || opt > 4) {
-				System.out.println("\n -- OpÁ„o Inv·lida --\n");
+				System.out.println("\n -- Op√ß√£o Inv√°lida --\n");
 				flag = 1;
 			}
 
